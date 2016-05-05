@@ -1,0 +1,30 @@
+{
+  "name": "awesomeproject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "lint": "eslint *.js"
+  },
+  "dependencies": {
+    "react": "^0.14.8",
+    "react-native": "^0.25.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.9.0",
+    "eslint-plugin-react": "^5.0.1",
+    "eslint-plugin-react-native": "^1.0.1"
+  },
+  "description": "my first react native test using routing",
+  "main": "index.ios.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scotttball/awesomeprojectreactnative.git"
+  },
+  "author": "Scott Ball <scotttball@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/scotttball/awesomeprojectreactnative/issues"
+  }
+}
